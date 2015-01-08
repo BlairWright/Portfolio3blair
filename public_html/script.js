@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 
-$("document").ready(function(){
+$("document").ready(function() {
     $(".wwb").css("background-color", "red");
+    $("p:last").css("background-color", "pink");
 });
+
