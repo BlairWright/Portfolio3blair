@@ -11,7 +11,30 @@ $("document").ready(function() {
     
     $('h1').bind('click', mouseClick);
     
+
+$('#replaceWText').css('color', 'blue');
+
+$('#replaceWText').bind('click', replaceWText);
+
+$('#randPara').bind('click', addAPara);
+
+$('#removePara').bind('click', removeAPara);
 });
+
+function removeAPara() {
+    $('#randPara p:last').remove();
+}
+function addAPara() {
+    $('randPara').append('<p>ADDED</p>');
+}
+
+function replaceWText() {
+    $('#replaceWText').html('<h1>Kaelen is Gay</h1>');
+}
+function alertButtonClick() {
+    alert("There was a button clicked");
+}
+
 
 function mouseOverMe() {
     $("h1").html("This is easy");
@@ -22,5 +45,6 @@ function MouseOutMe() {
 function MouseClick() {
     $('p').html('swagswagswag');
 }
+
 
 
