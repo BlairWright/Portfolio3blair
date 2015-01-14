@@ -19,17 +19,22 @@ $('#replaceWText').bind('click', replaceWText);
 $('#randPara').bind('click', addAPara);
 
 $('#removePara').bind('click', removeAPara);
+$(document).ready(function() {
+ //Code to implement gallery using jkit
+$('#myelement').jKit('gallery', { 'event': 'mouseover' });
 });
+});
+
 
 function removeAPara() {
     $('#randPara p:last').remove();
 }
 function addAPara() {
-    $('randPara').append('<p>ADDED</p>');
+    $('#randPara').append('<p>ADDED</p>');
 }
 
 function replaceWText() {
-    $('#replaceWText').html('<h1>Kaelen is Gay</h1>');
+    $('#replaceWText').html('<h1>Kaelen sucks</h1>');
 }
 function alertButtonClick() {
     alert("There was a button clicked");
@@ -39,10 +44,10 @@ function alertButtonClick() {
 function mouseOverMe() {
     $("h1").html("This is easy");
 }
-function MouseOutMe() {
+function mouseOutMe() {
     $('hi').html('I am Cool');
 }
-function MouseClick() {
+function mouseClick() {
     $('p').html('swagswagswag');
 }
 
