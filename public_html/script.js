@@ -5,8 +5,8 @@
  */
 
 $("document").ready(function() {
-    $(".background").css("background-image", "url()");
-    $(".wwb").css("background-color", "red");
+    $(".background").css("background-image", "url(http://i.ytimg.com/vi/10yrPDf92hY/maxresdefault.jpg)");
+    $(".wwb").css("background-color", "");
     $("p:last").css("background-color", "pink");
     $('h1').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
     
