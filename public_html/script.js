@@ -5,31 +5,31 @@
  */
 
 $("document").ready(function() {
-    $(".background").css("background-image", "url(http://i.ytimg.com/vi/10yrPDf92hY/maxresdefault.jpg)");
+    $(".background").css("background-image", "url(http://fc07.deviantart.net/fs71/f/2012/246/1/4/good_kid_maad_city_by_hat_94-d5di3it.png)");
     $(".wwb").css("background-color", "");
     $("p:last").css("background-color", "pink");
     $('h1').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
-    
+
     $('h1').bind('click', mouseClick);
-    
+
     $('#superHumans').accordion({header: "h3"});
-    
 
-$('#replaceWText').css('color', 'blue');
 
-$('#replaceWText').bind('click', replaceWText);
+    $('#replaceWText').css('color', 'blue');
 
-$('#randPara').bind('click', addAPara);
+    $('#replaceWText').bind('click', replaceWText);
 
-$('#cool').bind('click', yeet);
+    $('#randPara').bind('click', addAPara);
 
-$('#coolv2').bind('click', yeetv2);
+    $('#cool').bind('click', yeet);
 
-$('#removePara').bind('click', removeAPara);
-$(document).ready(function() {
- //Code to implement gallery using jkit
-$('#myelement').jKit('gallery', { 'event': 'mouseover' });
-});
+    $('#coolv2').bind('click', yeetv2);
+
+    $('#removePara').bind('click', removeAPara);
+    $(document).ready(function() {
+        //Code to implement gallery using jkit
+        $('#myelement').jKit('gallery', {'event': 'mouseover'});
+    });
 });
 
 function yeet() {
