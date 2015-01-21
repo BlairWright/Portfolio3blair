@@ -5,7 +5,7 @@
  */
 
 $("document").ready(function() {
-    $(".background").css("background-image", "url(http://fc07.deviantart.net/fs71/f/2012/246/1/4/good_kid_maad_city_by_hat_94-d5di3it.png)");
+    $(".background").css("background-image", "url(http://skilal.com/wp-content/uploads/2014/07/Black-and-White-Marina-Skyline.jpg)");
     $(".wwb").css("background-color", "");
     $("p:last").css("background-color", "pink");
     $('h1').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
