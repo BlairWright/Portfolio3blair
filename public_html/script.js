@@ -5,15 +5,15 @@
  */
 
 $("document").ready(function() {
-    $(".background").css("background-image", "url(http://skilal.com/wp-content/uploads/2014/07/Black-and-White-Marina-Skyline.jpg)");
+    $(".background").css("background-image", "url(http://fc07.deviantart.net/fs71/f/2012/246/1/4/good_kid_maad_city_by_hat_94-d5di3it.png)");
     $(".wwb").css("background-color", "");
     $("p:last").css("background-color", "pink");
     $('h1').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
-
+// note to self: the chicken is on the burner
     $('h1').bind('click', mouseClick);
 
     $('#superHumans').accordion({header: "h3"});
-
+            //made the accordion feature because it made the websiite look more complex.
 
     $('#replaceWText').css('color', 'blue');
 
@@ -35,7 +35,7 @@ $("document").ready(function() {
 function yeet() {
     $('.logo').hide('explode', {}, 2500);
 }
-
+        //I named the function yeet because yeet is a german word for night and I thought it was cool that  yeet meant that.
 function yeetv2() {
     $('.logo').show('fade', {}, 2500);
 }
